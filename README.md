@@ -38,3 +38,18 @@ My medium post about Dapper : https://medium.com/@fatihtarakc/dapper-dbff2a7092a
 
 “ After delete student, get students ”
 ![students6](https://github.com/user-attachments/assets/2c64e0b7-19c9-443d-896f-c30ed7eca934)
+
+----------------------------------------------------------------------------------------------------------
+
+“ Update student with dapper to ms sql server DapperDemoAppDb database ”
+![students8](https://github.com/user-attachments/assets/f86d0412-3b66-4de3-810b-74fd96ceafd8)
+
+
+![postman](https://github.com/user-attachments/assets/e2072494-7a6e-47ba-8a89-4f56a87a3d79)
+
+----------------------------------------------------------------------------------------------------------
+
+“ After update student, get students ”
+![students7](https://github.com/user-attachments/assets/3503c7aa-6b6e-47af-98ae-322d9d667570)
+
+----------------------------------------------------------------------------------------------------------
