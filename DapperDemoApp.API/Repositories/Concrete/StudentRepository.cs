@@ -17,7 +17,7 @@ namespace DapperDemoApp.API.Repositories.Concrete
 
         public async Task<bool> AddAsync(StudentAddDto studentAddDto)
         {
-            var query = "insert into Students (Id, name, surname, number, class) values (@studentId, @name, @surname, @number, @class)";
+            var query = "insert into Students (Id, name, surname, number, class, creationdate) values (@studentId, @name, @surname, @number, @class, @creationdate)";
 
             var parameters = new DynamicParameters();
             parameters.Add("@studentId", Guid.NewGuid());
@@ -25,6 +25,7 @@ namespace DapperDemoApp.API.Repositories.Concrete
             parameters.Add("@surname", studentAddDto.Surname);
             parameters.Add("@number", studentAddDto.Number);
             parameters.Add("@class", studentAddDto.Class);
+            parameters.Add("@creationdate", DateTime.Now);
 
             try
             {

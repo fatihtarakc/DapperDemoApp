@@ -7,5 +7,6 @@
         public string Surname { get; set; }
         public int Number { get; set; }
         public string Class { get; set; }
+        public DateTime CreationDate { get; set; }
     }
 }
