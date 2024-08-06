@@ -32,6 +32,8 @@ My medium post about Dapper : https://medium.com/@fatihtarakc/dapper-dbff2a7092a
 ----------------------------------------------------------------------------------------------------------
 
 “ Delete student with Dapper on ms sql server DapperDemoAppDb database ”
+![students10](https://github.com/user-attachments/assets/42d28856-3758-4da0-bee3-c084a72dd459)
+
 ![postman](https://github.com/user-attachments/assets/931957b8-593b-4b65-9b1e-f421c23d6226)
 
 ----------------------------------------------------------------------------------------------------------
