@@ -14,5 +14,10 @@ Enter some sample datas to test this method to database
 Get students with dapper from ms sql server DapperDemoAppDb database
 ![postmanjpg](https://github.com/user-attachments/assets/5d923bf3-fdaa-4cbd-85de-6a64e7c7a324)
 
+
 Get student by studentId with dapper from ms sql server DapperDemoAppDb database
 ![postman](https://github.com/user-attachments/assets/ae7b0f78-83b7-4b69-ae67-c4b92b74c479)
+
+Add new student with dapper to ms sql server DapperDemoAppDb database
+![postman](https://github.com/user-attachments/assets/4745cfc9-1890-4bce-811b-72570ad85e0b)
+
