@@ -4,6 +4,8 @@ In this project, I was worked on Dapper Crud Processes. Methods were tested on S
 
 My medium post about Dapper : https://medium.com/@fatihtarakc/dapper-dbff2a7092a4
 
+----------------------------------------------------------------------------------------------------------
+
 “ Enter some sample datas to test this method to database ”
 ![students](https://github.com/user-attachments/assets/31e444b3-cb76-4b8a-bbba-d9632286d479)
 
