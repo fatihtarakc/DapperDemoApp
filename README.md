@@ -17,6 +17,8 @@ My medium post about Dapper : https://medium.com/@fatihtarakc/dapper-dbff2a7092a
 ----------------------------------------------------------------------------------------------------------
 
 “ Get student by studentId with dapper from ms sql server DapperDemoAppDb database ”
+![students11](https://github.com/user-attachments/assets/9f4eef37-f28f-470f-b36d-ed5aedd874b2)
+
 ![postman](https://github.com/user-attachments/assets/ae7b0f78-83b7-4b69-ae67-c4b92b74c479)
 
 ----------------------------------------------------------------------------------------------------------
