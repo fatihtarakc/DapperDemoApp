@@ -9,10 +9,10 @@ namespace DapperDemoApp.API.Repositories.Concrete
 {
     public class StudentRepository : IStudentRepository
     {
-        private string ConnectionString;
+        private string myConnectionString;
         public StudentRepository(IConfiguration configuration)
         {
-            ConnectionString = configuration["ConnectionStrings:conn"];
+            myConnectionString = configuration["ConnectionStrings:conn"];
         }
 
         public async Task<bool> AddAsync(StudentAddDto studentAddDto)
@@ -29,7 +29,7 @@ namespace DapperDemoApp.API.Repositories.Concrete
 
             try
             {
-                using (var conn = new SqlConnection(ConnectionString)) 
+                using (var conn = new SqlConnection(myConnectionString)) 
                 {
                     return await conn.ExecuteAsync(query, parameters) > 0;
                 }
@@ -49,7 +49,7 @@ namespace DapperDemoApp.API.Repositories.Concrete
 
             try
             {
-                using (var conn = new SqlConnection(connectionString:ConnectionString))
+                using (var conn = new SqlConnection(connectionString: myConnectionString))
                 {
                     return await conn.ExecuteAsync(query, parameters) > 0;
                 }
@@ -73,7 +73,7 @@ namespace DapperDemoApp.API.Repositories.Concrete
 
             try
             {
-                using (var conn = new SqlConnection(connectionString: ConnectionString))
+                using (var conn = new SqlConnection(connectionString: myConnectionString))
                 {
                     return await conn.ExecuteAsync(query, parameters) > 0;
                 }
@@ -93,7 +93,7 @@ namespace DapperDemoApp.API.Repositories.Concrete
 
             try
             {
-                using (var conn = new SqlConnection(ConnectionString)) 
+                using (var conn = new SqlConnection(myConnectionString)) 
                 {
                     return (await conn.QueryFirstOrDefaultAsync<Student>(query, parameters)).Adapt<StudentDto>();
                 }
@@ -110,7 +110,7 @@ namespace DapperDemoApp.API.Repositories.Concrete
 
             try
             {
-                using (var conn = new SqlConnection(ConnectionString)) 
+                using (var conn = new SqlConnection(myConnectionString)) 
                 {
                     var students = await conn.QueryAsync<Student>(query);
                     return students.Adapt<IEnumerable<StudentDto>>();
