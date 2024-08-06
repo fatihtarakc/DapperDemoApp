@@ -27,7 +27,7 @@ My medium post about Dapper : https://medium.com/@fatihtarakc/dapper-dbff2a7092a
 ----------------------------------------------------------------------------------------------------------
 
 “ After add new student, get students ”
-![students3](https://github.com/user-attachments/assets/88f95f41-58e2-4dd0-80a0-87b2b2569200)
+![students9](https://github.com/user-attachments/assets/9b6ae35c-fbd6-4321-b73c-569bf4c0783c)
 
 ----------------------------------------------------------------------------------------------------------
 
