@@ -11,7 +11,7 @@ My medium post about Dapper : https://medium.com/@fatihtarakc/dapper-dbff2a7092a
 
 ----------------------------------------------------------------------------------------------------------
 
-“  ”Get students with dapper from ms sql server DapperDemoAppDb database
+“ Get students with dapper from ms sql server DapperDemoAppDb database ”
 ![postmanjpg](https://github.com/user-attachments/assets/5d923bf3-fdaa-4cbd-85de-6a64e7c7a324)
 
 ----------------------------------------------------------------------------------------------------------
@@ -31,5 +31,10 @@ My medium post about Dapper : https://medium.com/@fatihtarakc/dapper-dbff2a7092a
 
 ----------------------------------------------------------------------------------------------------------
 
-“ After delete student with Dapper on ms sql server DapperDemoAppDb database ”
+“ Delete student with Dapper on ms sql server DapperDemoAppDb database ”
 ![postman](https://github.com/user-attachments/assets/931957b8-593b-4b65-9b1e-f421c23d6226)
+
+----------------------------------------------------------------------------------------------------------
+
+“ After delete student, get students ”
+![students6](https://github.com/user-attachments/assets/2c64e0b7-19c9-443d-896f-c30ed7eca934)
